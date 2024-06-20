@@ -89,3 +89,27 @@ function yearJubilacion(yearNacimiento, Nombre){
 var anos = yearJubilacion(1999, "Carlos");
 
 */
+
+
+
+//FUNCIONES COMO EXPRESIONES 
+
+//Argumento Undefined 
+var nombre;
+var prueba = function(n){
+    return "Hola " + n;
+}
+
+nombre = "Nombre";
+console.log(prueba(nombre));
+
+
+//Argumentos Nulos
+
+var a;
+a = null;
+var valorNulo = function(a){
+    return a;
+}
+
+console.log(valorNulo(a));
