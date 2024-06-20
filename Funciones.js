@@ -95,6 +95,7 @@ var anos = yearJubilacion(1999, "Carlos");
 //FUNCIONES COMO EXPRESIONES 
 
 //Argumento Undefined 
+/*
 var nombre;
 var prueba = function(n){
     return "Hola " + n;
@@ -113,3 +114,4 @@ var valorNulo = function(a){
 }
 
 console.log(valorNulo(a));
+*/
