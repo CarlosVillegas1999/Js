@@ -115,3 +115,17 @@ var valorNulo = function(a){
 
 console.log(valorNulo(a));
 */
+
+
+//Argumentos por default 
+
+/*
+var sumar = function(a, b){
+    return a + b;
+}
+
+console.log(sumar(10, 4));
+
+*/
+
+//Plantillas de cadenas (template string)
