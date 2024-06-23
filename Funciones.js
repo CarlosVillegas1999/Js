@@ -129,3 +129,37 @@ console.log(sumar(10, 4));
 */
 
 //Plantillas de cadenas (template string)
+
+/*
+var nombre = 'Carlos';
+console.log(`El nombre es: ${nombre}`);
+
+var a = 5;
+var b = 10;
+//console.log('La suma es:'+(a+b));
+console.log(`La suma es : ${a+b}`);
+*/
+
+
+function sscore(nombre, respuestaA, respuestaN){
+    var porcenA = (respuestaA / 100) * 100;
+    var porcenN = (respuestaN / 100) * 100;
+    var score = '';
+
+    if(porcenA >= 90){
+        score = 'A';
+    }
+    else if(porcenA >=70){
+        score = 'B';
+
+    }else if(porcenA >=45){
+        score = 'C';
+
+    }else{
+        score = 'D';
+    }
+    return `${nombre} tiene el score ${score}, Positivas:${respuestaA}%, Negativas:${respuestaN}%`;
+}
+
+var resul1 = sscore('Carlos', 75, 25);
+console.log(resul1);
