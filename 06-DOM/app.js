@@ -54,6 +54,7 @@ item.style.color = 'red';
 
 //querySelectorAll
 
+/*
 var items = document.querySelectorAll('.list-group-item')
 items[2].style.color = 'red';
 
@@ -68,4 +69,58 @@ for(var i=0; i < impar.length; i++){
     impar[i].style.backgroundColor = '#CCC';
     par[i].style.backgroundColor = '#F4F4F4';
 }
+*/
+
+//ParentNode
+/*
+var itemList = document.querySelector('#items');
+console.log(itemList.parentNode);
+var main = itemList.parentNode;
+main.style.backgroundColor = '#f4f4f4';
+*/
+//ParentElement
+
+
+/*
+var itemList = document.querySelector('#items');
+console.log(itemList.parentElement);
+var main = itemList.parentElement;
+main.style.backgroundColor = '#f4f4f4';
+*/
+
+var itemList = document.querySelector('#items');
+//chilNodes
+//console.log(itemList.childNodes);
+
+
+//children
+//console.log(itemList.children);
+
+
+//firstChild //firstElementChild 
+/*
+console.log(itemList.firstChild);
+console.log(itemList.firstElementChild);
+itemList.firstElementChild.textContent = 'Prueba'
+*/
+
+//lastChild //lastElementChild
+/*
+console.log(itemList.lastChild);
+console.log(itemList.lastElementChild);
+itemList.lastElementChild.textContent = 'Prueba';
+*/
+
+
+//previusSibling
+console.log(itemList.previousSibling);
+
+//previusElementSibling
+console.log(itemList.previousElementSibling);
+
+//nextSibling
+console.log(itemList.nextSibling);
+
+//nextElementsSibling
+console.log(itemList.nextElementSibling);
 
