@@ -17,7 +17,7 @@ console.log(document.all[5]);
 /*var headerTitle = document.getElementById('header-title');
 var header = document.getElementById('main-header');
 //console.log(header);
-headerTitle.textContent = 'Hola'; //<--- de esta forma puedo cambiar los valores de una etiqueta h1 
+headerTitle.textContent = 'Hola'; //<--- de esta forma puedo cambiar los valores de una etiqueta h1
 headerTitle.innerText = 'Adios';
 headerTitle.innerHTML = '<h3>Prueba</h3>';
 */
@@ -98,7 +98,7 @@ var itemList = document.querySelector('#items');
 //console.log(itemList.children);
 
 
-//firstChild //firstElementChild 
+//firstChild //firstElementChild
 /*
 console.log(itemList.firstChild);
 console.log(itemList.firstElementChild);
