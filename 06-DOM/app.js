@@ -111,7 +111,7 @@ console.log(itemList.lastElementChild);
 itemList.lastElementChild.textContent = 'Prueba';
 */
 
-
+/*
 //previusSibling
 console.log(itemList.previousSibling);
 
@@ -123,4 +123,4 @@ console.log(itemList.nextSibling);
 
 //nextElementsSibling
 console.log(itemList.nextElementSibling);
-
+*/
